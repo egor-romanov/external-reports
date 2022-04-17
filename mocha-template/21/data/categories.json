@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/mocha-testing-template/mocha-testing-template/src/test/HeyAndHi/Hey.ts)",
+      "children" : [ {
+        "name" : "signInAsRoot",
+        "uid" : "4a0a6cec0a12ca33",
+        "parentUid" : "6a31a7d286a50fa1bb740421cc0b026a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650222513270,
+          "stop" : 1650222523280,
+          "duration" : 10010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "signInBySession",
+        "uid" : "2e0c5a692378c2c",
+        "parentUid" : "6a31a7d286a50fa1bb740421cc0b026a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650222523281,
+          "stop" : 1650222533284,
+          "duration" : 10003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a31a7d286a50fa1bb740421cc0b026a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "failed test example",
+      "children" : [ {
+        "name" : "failTest",
+        "uid" : "3579508116b1cd0b",
+        "parentUid" : "4bcef3298da7c7e3f66f70589ab4f8d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650222533287,
+          "stop" : 1650222533311,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bcef3298da7c7e3f66f70589ab4f8d9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

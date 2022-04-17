@@ -1,0 +1,81 @@
+{
+  "uid" : "3579508116b1cd0b",
+  "name" : "failTest",
+  "fullName" : "failTest",
+  "historyId" : "3442963833680321ef46e43a4dbdb9a7",
+  "time" : {
+    "start" : 1650222533287,
+    "stop" : 1650222533311,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "statusMessage" : "failed test example",
+  "statusTrace" : "AssertionError: failed test example\n    at Hi.<anonymous> (src/test/HeyAndHi/Hi.ts:17:5)\n    at Generator.next (<anonymous>)\n    at /home/runner/work/mocha-testing-template/mocha-testing-template/src/test/HeyAndHi/Hi.ts:17:71\n    at new Promise (<anonymous>)\n    at __awaiter (src/test/HeyAndHi/Hi.ts:13:12)\n    at Hi.failTest (src/test/HeyAndHi/Hi.ts:32:16)\n    at Context.failTest (node_modules/@testdeck/core/index.ts:180:27)\n    at processImmediate (internal/timers.js:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Hi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3579508116b1cd0b.json",
+  "parameterValues" : [ ]
+}

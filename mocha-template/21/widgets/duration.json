@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3579508116b1cd0b",
+  "name" : "failTest",
+  "time" : {
+    "start" : 1650222533287,
+    "stop" : 1650222533311,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aca041aac75633b0",
+  "name" : "successTest",
+  "time" : {
+    "start" : 1650222533286,
+    "stop" : 1650222533287,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e0c5a692378c2c",
+  "name" : "signInBySession",
+  "time" : {
+    "start" : 1650222523281,
+    "stop" : 1650222533284,
+    "duration" : 10003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a0a6cec0a12ca33",
+  "name" : "signInAsRoot",
+  "time" : {
+    "start" : 1650222513270,
+    "stop" : 1650222523280,
+    "duration" : 10010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

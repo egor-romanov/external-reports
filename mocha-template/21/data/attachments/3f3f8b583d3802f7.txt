@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","params":{"username":"ROOT","password":"EMPTY_PASSWORD"},"method":"auth.signIn","id":"1"}
